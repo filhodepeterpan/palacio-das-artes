@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/pda.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <title>Palácio das Artes</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div id="inicio">
+            <h1>Palácio das Artes</h1>
+            <p>O coração cultural da Praia Grande</p>
+            <div id="inicio-botoes">
+                <button>Ver agenda</button>
+                <button>Próximas Exposições</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="conteudo">
+
+        <div id="sessao-destaques" class="sessao">
+            <h1>Destaques da Semana</h1>
+            <div id="destaques-semana">
+                <div class="card">
+                    <h2>Concerto Sinfônico</h2>
+                    <br>
+                    <p>10 de maio</p>
+                </div>
+                <div class="card">
+                    <h2>Exposição de Arte Contemporânea</h2>
+                    <br>
+                    <p>12 de maio</p>
+                </div>
+                <div class="card">
+                    <h2>Espetáculo Teatral</h2>
+                    <br>
+                    <p>16 de maio</p>
+                </div>
+                <div class="card">
+                    <h2>Oficina Infantil de Artes</h2>
+                    <br>
+                    <p>18 de maio</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="sessao-noticias" class="sessao">
+            <h1>Notícias & Atualidades</h1>
+            <div id="noticias-atualidades">
+                <div class="card-noticia">
+                    <img class="img-noticia" src="img/museu-cidade.png" alt="museu da cidade">
+                    <br><br>
+                    <h2>Museu da cidade recebe nova coleção fotográfica lorem</h2>
+                </div>
+                <div class="card-noticia">
+                    <img class="img-noticia" src="img/curso-musica.png" alt="mulher tocando piano para uma grande platéia">
+                    <br><br>
+                    <h2>Curso de música abre inscrições. Saiba como realizar seu cadastro</h2>
+                </div>
+                <div class="card-noticia">
+                    <img class="img-noticia" src="img/mostra-cultural.png" alt="espaço da mostra cultural">
+                    <br><br>
+                    <h2>Mostra de escultura contemporânea é inaugurada</h2>
+                </div>
+            </div>
+            <button>Ver mais notícias</button>
+        </div>
+
+        <div id="banner" class="sessao">
+            <div id="banner-texto">
+                <h1>Sobre o Palácio das Artes</h1>
+                <br>
+                <p>O Complexo Cultural Palácio das Artes foi inaugurado em 2008, para fomentar o setor cultural da cidade, além de reunir em um mesmo local, dois teatros, galeria de artes, museu e núcleo de oficinas culturais, recebendo também grandes evento</p>
+                <br>
+                <p>O espaço possui seis mil metros quadrados, contando ainda, no andar térreo com amplo salão de eventos, hall de entrada com exposição permanente de obras de arte, incluindo o famoso lustre gigante, inspirado no filme O Fantasma da Ópera, e formado por 12 mil pedras de cristal e mais de 120 lâmpadas.</p>
+            </div>
+            <div id="banner-img">
+                <img src="img/entrada-pda.png" alt="entrada do palácio das artes" width="800">
+            </div>
+        </div>
+
+        <div id="galeria" class="sessao">
+            <h1>Galeria de Fotos</h1>
+            <br>
+            <div class="carrossel">
+                <div class="slides" id="slides">
+                    <div class="slide">
+                        <img src="img/teatro.png" alt="teatro de frente">
+                    </div>
+                    <div class="slide">
+                        <img src="img/biblioteca.png" alt="biblioteca">
+                    </div>
+                    <div class="slide">
+                        <img src="img/exposicao.png" alt="exposição de arte">
+                    </div>
+                    <div class="slide">
+                        <img src="img/entrada-pda.png" alt="entrada do palacio das artes">
+                    </div>
+                    <div class="slide">
+                        <img src="img/museu-cidade.png" alt="museu da cidade">
+                    </div>
+                    <div class="slide">
+                        <img src="img/exposicao2.png" alt="exposição de arte">
+                    </div>
+                    <div class="slide">
+                        <img src="img/espaco-leitura-infantil.png" alt="espaço de leitura infantil">
+                    </div>
+                    <div class="slide">
+                        <img src="img/teatro2.png" alt="teatro de lado">
+                    </div>
+                    <div class="slide">
+                        <img src="img/mostra-cultural.png" alt="mostra cultural">
+                    </div>
+                    <div class="slide">
+                        <img src="img/lustre.png" alt="lustre do palacio das artes">
+                    </div>
+                    <div class="slide">
+                        <img src="img/curso-musica.png" alt="curso de musica">
+                    </div>
+                </div>
+                <div class="controles">
+                    <button onclick="mudaSlide(-1)">‹</button>
+                    <button onclick="mudaSlide(1)">›</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="rodape">
+        <div class="sessao-footer" id="contato">
+            <h2>Palácio das Artes</h2>
+            <br>
+            <p>Av. Pres. Costa e Silva, 1600 - Boqueirão, Praia Grande - SP, 11700-007</p>
+            <p>Telefone: (13) 3496-4000</p>
+            <p>Email:
+        </div>
+        <div class="sessao-footer">
+            <h2>Redes Sociais</h2>
+            <br>
+            <p>Siga-nos nas redes sociais para ficar por dentro das novidades e eventos:</p>
+            <br>
+            <p>Facebook: /palaciodasartespg</p>
+            <p>Instagram: @palaciodasartespg</p>
+        </div>
+        <div class="sessao-footer">
+            <h2>Horário de Funcionamento</h2>
+            <br>
+            <p>Segunda a Sexta: 9h às 17h</p>
+            <p>Sábados, Domingos e Feriados: Fechado</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
