@@ -78,6 +78,7 @@ button{
     display: flex;
     gap: 6rem;
     justify-content: space-between;
+    overflow-x: scroll;
 }
 
 .card{
