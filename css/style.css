@@ -28,7 +28,6 @@ a{
     align-items: center;
 }
 
-
 #inicio{
     color: #FFFFFF;
     padding: 0 0 0 4rem;
@@ -122,6 +121,10 @@ button{
 
 #banner-texto p{
     font-size: 1.1rem;
+}
+
+#banner-img img{
+    width: 800px;
 }
 
 .carrossel {

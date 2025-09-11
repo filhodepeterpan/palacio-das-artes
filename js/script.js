@@ -1,7 +1,7 @@
 let indice = 0;
 const slides = document.getElementById('slides');
 const totalSlides = slides.children.length;
-const visiveis = 4;
+const visiveis = 1;
 
 function mudaSlide(direcao) {
     indice = indice + direcao * visiveis;
