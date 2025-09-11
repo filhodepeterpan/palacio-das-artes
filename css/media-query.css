@@ -83,4 +83,11 @@
     .slide{
         min-width: 100%;
     }
+
+    .lightbox-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
