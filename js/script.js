@@ -6,6 +6,12 @@ const fotos = document.querySelectorAll('.slide img');
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightbox-img');
 const closeBtn = document.querySelector('.lightbox .close');
+const botaoVoltar = document.getElementById('botao-voltar');
+const cabecalho = document.getElementById('cabecalho');
+
+window.addEventListener('scroll', () => {
+    botaoVoltar.style.display = window.scrollY > cabecalho.offsetHeight ? 'block' : 'none';
+});
 
 function mudaSlide(direcao) {
     indice = indice + direcao * visiveis;
