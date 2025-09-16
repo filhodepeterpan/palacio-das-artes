@@ -24,6 +24,12 @@ fotos.forEach(foto => {
     });
 });
 
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        lightbox.style.display = 'none';
+    }
+});
+
 closeBtn.addEventListener('click', () => {
     lightbox.style.display = 'none';
 });
