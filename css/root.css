@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Bodega Sans";
+    src: url(../fonts/bodega_sans.ttf);
+}
+
 :root{
     --cor-main: #FAFAF8;
     --cor-footer: #000000;
-    --fonte-inicio: "Times New Roman", serif;
-    --fonte-padrao: "Arial", sans-serif;
+    --fonte-inicio: "Bodega Sans";
+    --fonte-padrao: "Roboto", sans-serif;
     --fonte-destaque: ;
 }

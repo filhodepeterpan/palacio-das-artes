@@ -21,7 +21,7 @@ a{
 #cabecalho {
     background: 
         linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-        url(../img/lustre.png) center/cover no-repeat;
+        url(../img/palacio.png) center/cover no-repeat;
     padding: 18rem 0;
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@ a{
 
 #inicio h1{
     font-family: var(--fonte-inicio);
-    font-size: 4rem;
+    font-size: 6rem;
     margin-bottom: 0.5rem;
 }
 
@@ -78,7 +78,6 @@ button{
     display: flex;
     gap: 6rem;
     justify-content: space-between;
-    overflow-x: scroll;
 }
 
 .card{
@@ -118,6 +117,7 @@ button{
 
 #banner-texto{
     padding: 0 3rem 0 0;
+    text-align: justify;
 }
 
 #banner-texto p{
