@@ -13,3 +13,4 @@ O objetivo do projeto é apresentar informações sobre o **Palácio das Artes**
 
 ## 👨‍💻 Autores
 Projeto desenvolvido por alunos do curso de **DSM - FATEC Praia Grande**:
+![Palácio das Artes](image.png)
