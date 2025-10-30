@@ -40,4 +40,10 @@
     border: 2px solid #000000;
     border-radius: 12px;
     width: 100%;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.painel-img img.fade-out{
+    opacity: 0;
 }

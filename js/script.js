@@ -6,6 +6,7 @@ window.addEventListener('scroll', () => {
     botaoVoltar.style.display = window.scrollY > cabecalho.offsetHeight ? 'block' : 'none';
 });
 
+
 // CARROSSEL
 let indice = 0;
 const slides = document.getElementById('slides');
@@ -49,4 +50,108 @@ lightbox.addEventListener('click', (e) => {
     }
 });
 
-// 
+
+// PAINEL DINÂMICO
+
+function exibeDiagrama(diagrama) {
+    const diagramas = [
+    {
+        index: 1,
+        nome: 'Diagrama de Casos de Uso',
+        img: '../img/diagramas-uml/casos-de-uso.png'
+    },
+    {
+        index: 2,
+        nome: 'Diagrama de Classes',
+        img: '../img/diagramas-uml/classes.png'
+    },
+    {
+        index: 3,
+        nome: 'Diagrama de Objetos',
+        img: '../img/diagramas-uml/objetos.png'
+    },
+    {
+        index: 4,
+        nome: 'Diagrama de Sequência',
+        img: '../img/diagramas-uml/sequencia.png'
+    },
+    {
+        index: 5,
+        nome: 'Diagrama de Componentes',
+        img: '../img/diagramas-uml/componentes.png'
+    },
+    {
+        index: 6,
+        nome: 'Diagrama de Implementação',
+        img: '../img/diagramas-uml/implementacao.png'
+    },
+    {
+        index: 7,
+        nome: 'Diagrama de Pacotes',
+        img: '../img/diagramas-uml/pacotes.png'
+    }
+    ];
+
+    const painelImg = document.querySelector('.painel-img img');
+    
+    const texto = document.querySelector('#painel-diagramas-uml h2');
+    const img = document.querySelector('#painel-diagramas-uml img');
+
+    const item = diagramas.find(d => d.index === diagrama);
+
+    texto.textContent = item.nome;
+
+    painelImg.classList.add('fade-out');
+    setTimeout(() => {
+        img.src = item.img;            
+        img.alt = item.nome;  
+
+        void painelImg.offsetWidth;
+
+        painelImg.classList.remove('fade-out');
+    }, 300);         
+}
+
+function exibeModelo(modelo) {
+    const modelos = [
+    {
+        index: 1,
+        nome: 'Modelo Conceitual',
+        img: '../img/banco-de-dados/conceitual.png'
+    },
+    {
+        index: 2,
+        nome: 'Modelo Lógico',
+        img: '../img/banco-de-dados/logico.png'
+    },
+    {
+        index: 3,
+        nome: 'Modelo Fisico',
+        img: '../img/banco-de-dados/fisico.png'
+    },
+    {
+        index: 4,
+        nome: 'Exemplos de INSERT',
+        img: '../img/banco-de-dados/inserts.png'
+    },
+    ];
+
+    const painelImg = document.querySelector('.painel-img img');
+
+    const texto = document.querySelector('#painel-banco-de-dados h2');
+    const img = document.querySelector('#painel-banco-de-dados img');
+
+    const item = modelos.find(d => d.index === modelo);
+
+    texto.textContent = item.nome;
+
+    painelImg.classList.add('fade-out');
+    setTimeout(() => {
+        img.src = item.img;            
+        img.alt = item.nome;  
+
+        void painelImg.offsetWidth;
+
+        painelImg.classList.remove('fade-out');
+    }, 300);     
+}
