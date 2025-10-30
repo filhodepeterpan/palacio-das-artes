@@ -45,3 +45,15 @@ lightbox.addEventListener('click', (e) => {
         lightbox.style.display = 'none';
     }
 });
+
+// IMPORT do ionicons
+
+const ioniconsModule = document.createElement('script');
+ioniconsModule.type = 'module';
+ioniconsModule.src = 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js';
+document.body.appendChild(ioniconsModule);
+
+const ioniconsFallback = document.createElement('script');
+ioniconsFallback.nomodule = true;
+ioniconsFallback.src = 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js';
+document.body.appendChild(ioniconsFallback);
