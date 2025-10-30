@@ -20,6 +20,10 @@ a{
     color: inherit;
 }
 
+ol, ul{
+    list-style: none;
+}
+
 button{
     background-color: #000000;
     color: #FFFFFF;
@@ -59,6 +63,10 @@ button{
 #conteudo{
     background-color: var(--cor-main);
     padding: 2rem 6rem;
+}
+
+.sessao{
+    margin: 3rem 0;
 }
 
 #rodape{

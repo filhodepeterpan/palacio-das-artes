@@ -1,0 +1,42 @@
+.painel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.painel-selecao{
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+.painel-selecao-lista li{
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.painel-selecao-lista li:hover{
+    background-color: #D3D3D3;
+    
+}
+
+#diagramas-uml h1, #banco-de-dados h1{
+    text-align: center;
+}
+
+.painel-img{
+    width: 100%;
+}
+
+.painel-img h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.painel-img img{
+    border: 2px solid #000000;
+    border-radius: 12px;
+    width: 100%;
+}

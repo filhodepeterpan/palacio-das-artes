@@ -23,10 +23,6 @@
     margin: 1rem 0 0 0;
 }
 
-.sessao{
-    margin: 3rem 0;
-}
-
 #destaques-semana, #noticias-atualidades{
     display: flex;
     gap: 3rem;
