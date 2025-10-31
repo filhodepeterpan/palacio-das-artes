@@ -78,7 +78,7 @@ button{
     padding: 6rem;
 }
 
-.button-header{
+.icon-align{
     display: flex;
     align-items: center;
     gap: 0.4rem;
