@@ -78,6 +78,10 @@
         justify-content: center;
     }
 
+    .icon-align h1{
+        font-size: 1.75rem;
+    }
+
     .slide{
         min-width: 100%;
     }
