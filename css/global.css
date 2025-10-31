@@ -77,3 +77,9 @@ button{
     gap: 2rem;
     padding: 6rem;
 }
+
+.button-header{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
